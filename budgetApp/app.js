@@ -2,12 +2,23 @@
 var budgetController = (function() {})();
 
 // UI CONTROLLER
-var UIController = (function() {})();
+var UIController = (function() {
+  return {
+    getinput: function() {
+      return {
+        type: document.querySelector(".add__type").value,
+        description: document.querySelector(".add__description").value,
+        value: document.querySelector(".add__value").value
+      };
+    }
+  };
+})();
 
 // GLOBAL APP CONTROLLER
 var controller = (function(budgetCtrl, UICtrl) {
   var ctrlAddItem = function() {
-    console.log("It works");
+    var input = UICtrl.getinput();
+    console.log(input);
   };
 
   document.querySelector(".add__btn").addEventListener("click", ctrlAddItem);
