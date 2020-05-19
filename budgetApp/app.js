@@ -65,7 +65,11 @@ var UIController = (function() {
       return {
         type: document.querySelector(DOMstrings.inputType).value,
         description: document.querySelector(DOMstrings.inputDescription).value,
+<<<<<<< HEAD
         value: parseFloat(document.querySelector(DOMstrings.inputValue).value)
+=======
+        value: document.querySelector(DOMstrings.inputValue).value
+>>>>>>> 53a8458d0aecca8830e3a434027430e63e873bca
       };
     },
 
@@ -124,8 +128,11 @@ var controller = (function(budgetCtrl, UICtrl) {
     });
   };
 
+<<<<<<< HEAD
   var updateBudget = function() {};
 
+=======
+>>>>>>> 53a8458d0aecca8830e3a434027430e63e873bca
   var ctrlAddItem = function() {
     var input, newItem;
 
