@@ -6,9 +6,7 @@
 
 .nav__list {
     font-weight: bold;
-    color: #000 !important;
-    position: absolute;
-    right: 60px;
+    font-size: 1.3rem;
 }
 
 .nav__list svg {
@@ -25,12 +23,13 @@
     background-color: #ffeb00;
     border-radius: 50%;
     box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2);
+    z-index: 10000;
 }
 
 .nav__round img {
-    width: 100%;
-    padding: 0 20px;
-    padding-top: 30px;
+    width: 120px;
+    padding: 0 30px;
+    padding-top: 25px;
     margin-bottom: 5px;
 }
 
@@ -44,22 +43,19 @@
 }
 
 .top {
-    color: #000 !important;
     bottom: 200px;
     background-color: #ffa41b;
 }
 
 .top img {
     width: 100%;
-    padding: 0 30px;
-    padding-top: 25px;
     margin-bottom: 0;
 }
 
 #nav__logo {
     font-family: 'Jua', sans-serif;
     font-weight: bolder;
-    font-size: 4rem !important;
-    color: #ffa41b !important;
+    font-size: 5rem !important;
+    color: #005082 !important;
     float: left;
 }

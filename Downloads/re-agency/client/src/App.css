@@ -6,7 +6,6 @@
   padding: 0;
 }
 
-
 html {
   scroll-behavior: smooth;
   margin: 0;
@@ -14,23 +13,14 @@ html {
 }
 
 body {
-  margin: 0;
-  padding: 0;
-  background-color: #fff !important;
-  color: #000 !important;
+  background-color: #fafaf6 !important;
   font-family: 'Nanum Gothic', sans-serif !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 #root {
-  height: 100vh;
-  background-color: #fff !important;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-  monospace;
+  background-color: #fafaf6 !important;
 }
 
 ::-moz-selection {
@@ -45,5 +35,5 @@ code {
 
 a {
   text-decoration: none !important;
-  color: #000 !important;
+  color: #343434 !important;
 }

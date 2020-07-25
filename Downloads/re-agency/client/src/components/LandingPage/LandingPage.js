@@ -6,15 +6,19 @@ import ProductCard from '../ProductCard/ProductCard';
 
 import { Row } from 'reactstrap';
 import './LandingPage.css';
+import MainImage from '../MainImage/MainImage';
 
 function LandingPage() {
     return (
-        <div>
+        <div className="landing__container">
             <Navigation />
+            <MainImage />
             <Row>
                 <ProductCard />    
             </Row>
-            <Footer />
+            <Row>
+                <Footer />
+            </Row>
         </div>
     )
 }

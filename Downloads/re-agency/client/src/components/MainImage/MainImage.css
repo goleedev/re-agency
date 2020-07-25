@@ -1,0 +1,23 @@
+/* Main Page */
+.main__title {
+    font-family: 'Do Hyeon', sans-serif;
+    color: #000839;
+    font-weight: bold;
+    font-size: 5rem;
+}
+
+.main__left {
+    padding-left: 10% !important;
+    padding-top: 10%;
+}
+
+.main__form {
+    width: 65% !important;
+}
+
+.main__img {
+    width: 800px;
+    position: absolute;
+    right: 0;
+    top: 10%;
+}

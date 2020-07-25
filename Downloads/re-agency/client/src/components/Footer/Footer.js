@@ -1,11 +1,12 @@
 import React from 'react';
 import { Row } from 'reactstrap';
+import './Footer.css';
 
 function Footer() {
     const year = new Date().getFullYear();
 
     return (
-        <div>
+        <div className="footer__container">
             <Row>
                 <a href=""><p>회사소개 |</p></a>
                 <a href=""><p>의뢰하기 |</p></a>
