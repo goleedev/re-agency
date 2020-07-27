@@ -60,7 +60,7 @@ const Navigation = (props) => {
                     <p>전화 상담</p>
                 </a>
                 <a className="nav__round">
-                    <img src="https://lh3.googleusercontent.com/proxy/AO8L9wyHMT4Hy0PN9Pm2MZPr2FHiaNa7MBJGIyIvhF_HOZJFiqBDnCzL808Ikky5q0Gk3agceT6WuCb_mGSz0Qn83qHW3My9c3R0Lt6Nxby1roqDOTXciKnsdwDjDYJ_arcuH7Jj5CBdn2slnqc_TDwqo1HXUC89_6xLywlMkwgyjett3ChcaiPVitGk-DLHAUZyANqKY__MZSzXJPSwdGWtyxFGyxLs0nuwvLF00EjaQzLvwvHSKgfta7dh7A-NpdE0sMj-kqn_HTA0KC-EMtY7BJh_GJlnfAomuxlnr-QwUCOSO6fcfu1V2A5NMgD4Y49jboQp-qSNPgV9IHpHFjOvqsn_Ddrkzdxb--y6ega1LKYuow" alt="kakao" />
+                    <img src={require("../../images/kakao.png")} alt="kakao" />
                     <p>오픈 채팅</p>
                 </a>
             </div>

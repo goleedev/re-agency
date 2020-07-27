@@ -1,4 +1,8 @@
 /* Product Card */
 .product__container {
-    width: 80%;
+    /* width: 20% !important; */
+}
+
+.product__img {
+    width: 100px !important;
 }

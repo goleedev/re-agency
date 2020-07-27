@@ -17,7 +17,7 @@
 
 .main__img {
     width: 800px;
-    position: absolute;
+    position: relative;
     right: 0;
     top: 10%;
 }

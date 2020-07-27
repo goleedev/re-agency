@@ -1,7 +1,7 @@
 /* Footer */
 .footer__container {
     background-color: #005082;
-    position: absolute;
+    position: relative;
     bottom: 0px;
     width: 100%;
     padding: 30px 250px;

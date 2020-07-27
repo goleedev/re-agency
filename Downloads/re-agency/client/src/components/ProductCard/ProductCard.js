@@ -3,9 +3,9 @@ import {CardGroup, Card,CardImg, CardBody, CardTitle, CardSubtitle, CardText, Bu
 
 function ProductCard() {
     return (
-        <CardGroup>
-            <Card className="product__container">
-                <CardImg top src="" alt="" />
+        <CardGroup className="product__container">
+            <Card className="product__item">
+                <CardImg className="product__img" top src={require("../../images/8074.jpg")} alt="house" />
                 <CardBody>
                 <CardTitle>Card title</CardTitle>
                 <CardSubtitle>Card subtitle</CardSubtitle>
@@ -13,8 +13,8 @@ function ProductCard() {
                 <Button>Button</Button>
                 </CardBody>
             </Card>
-            <Card className="product__container">
-                <CardImg top src="" alt="" />
+            <Card className="product__item">
+                <CardImg className="product__img" top src={require("../../images/8074.jpg")} alt="house" />
                 <CardBody>
                 <CardTitle>Card title</CardTitle>
                 <CardSubtitle>Card subtitle</CardSubtitle>
@@ -22,8 +22,8 @@ function ProductCard() {
                 <Button>Button</Button>
                 </CardBody>
             </Card>
-            <Card  className="product__container">
-                <CardImg top src="" alt="" />
+            <Card  className="product__item">
+                <CardImg className="product__img" top src={require("../../images/8074.jpg")} alt="house" />
                 <CardBody>
                 <CardTitle>Card title</CardTitle>
                 <CardSubtitle>Card subtitle</CardSubtitle>
